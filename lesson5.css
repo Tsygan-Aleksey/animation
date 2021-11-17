@@ -1,0 +1,144 @@
+
+body{
+    background: url("image/dom-zimoy11.jpg");
+    background-size: 100%;
+    overflow: hidden;
+}
+div:nth-child(1){
+    position: absolute;
+    left: 10%;
+    top: -45px;
+    animation-delay: 5s;
+}
+div:nth-child(2){
+    position: absolute;
+    left: 20%;
+    top: -45px;
+    animation-delay: 2.3s;
+}
+div:nth-child(3){
+    position: absolute;
+    left: 33%;
+    top: -45px;
+    animation-delay: 4s;
+}
+div:nth-child(4){
+    position: absolute;
+    left: 27%;
+    top: -45px;
+    animation-delay: 1.4s;
+}
+div:nth-child(5){
+    position: absolute;
+    left: 40%;
+    top: -45px;
+    animation-delay: 4s;
+}
+div:nth-child(6){
+    position: absolute;
+    left: 43%;
+    top: -45px;
+    animation-delay: 0.8s;
+}
+div:nth-child(7){
+    position: absolute;
+    left: 57%;
+    top: -45px;
+    animation-delay: 1.8s;
+}
+div:nth-child(8){
+    position: absolute;
+    left: 65%;
+    top: -45px;
+    animation-delay: 4s;
+}
+div:nth-child(9){
+    position: absolute;
+    left: 72%;
+    top: -45px;
+    animation-delay: 0.5s;
+}
+div:nth-child(10){
+    position: absolute;
+    left: 84%;
+    top: -45px;
+    animation-delay: 2s;
+}
+div:nth-child(11){
+    position: absolute;
+    left: 93%;
+    top: -45px;
+    animation-delay: 1s;
+}
+div:nth-child(12){
+    position: absolute;
+    left: 95%;
+    top: -45px;
+    animation-delay: 3.5s;
+}
+div:nth-child(13){
+    position: absolute;
+    left: 76%;
+    top: -45px;
+    animation-delay: 2s;
+}
+div:nth-child(14){
+    position: absolute;
+    left: 82%;
+    top: -45px;
+    animation-delay: 7s;
+}
+div:nth-child(15){
+    position: absolute;
+    left: 59%;
+    top: -45px;
+    animation-delay: 6s;
+}
+
+
+
+
+.snowflake{
+    font-size: 40px;
+    color: white;
+}
+.snowflake-animation-position{
+    position: absolute;
+    left: 5%;
+}
+.snowflake-animation{
+    animation-name: fall;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes fall {
+    0%{
+        top: -50px;
+        transform: translate(90px);
+    }
+    15%{
+        transform: translate(-20px);
+    }
+    30%{
+        transform: translate(90px);
+    }
+    45%{
+        transform: translate(-20px);
+    }
+    60%{
+        transform: translate(90px);
+    }
+    70%{
+        transform: translate(-20px);
+    }
+    85%{
+        transform: translate(90px);
+    }
+    100%{
+        top: 100%;
+        transform: translate(-20px);
+    }
+}
